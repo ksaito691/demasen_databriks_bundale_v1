@@ -1,0 +1,6 @@
+[sqlfluff]
+dialect = databricks      # Databricks SQL 方言を使う（方言によって文法チェックが変わる）
+templater = jinja         # jinjaテンプレートエンジン対応（変数展開とかに対応するため）
+
+[sqlfluff:rules]
+exclude_rules = #L009      # ルールL009（SELECT * の禁止）を除外。必要に応じて他も除外可能
