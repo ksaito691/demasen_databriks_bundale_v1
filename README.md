@@ -1,10 +1,11 @@
+
 # フォルダ構成
 
 ```txt
 my-databricks-bundle/
 ├── databricks.yml               # バンドルの定義（ルート）
 ├── .sqlfluff                    # ← SQLFluffの設定ファイル（ルート直下に置く）
-├── .github/                     # GitHub Actions の設定フォルダ
+├── .github/                     # GitHub Actions の設定フォルダ※なんかここあるとコミットプッシュできなくなる？？
 │   └── workflows/
 │       └── sql-lint.yml         # ← SQL構文チェック用のGitHub Actions定義
 ├── resources/                   # Databricks リソースの構成（YAML）
