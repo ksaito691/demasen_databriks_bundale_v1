@@ -1,4 +1,3 @@
-# demasen_databriks_bundale_v1
-demasen_databriks_bundale_v1
 
-a
+# ルールについて
+
